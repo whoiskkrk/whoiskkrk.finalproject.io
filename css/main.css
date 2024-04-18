@@ -1,0 +1,24 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+@import url(nav.css);
+@import url(common.css);
+@import url(forms.css);
+@import url(footer.css);
+@import url(effects.css);
+
+
+
+:root {
+    --main-text-color: #820005;
+    --main-bg-color: #fafafa;
+    --primary-font-family: 'Staatliches', sans-serif;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: var(--primary-font-family);
+    color: var(--main-text-color);
+}
+
+
+
+

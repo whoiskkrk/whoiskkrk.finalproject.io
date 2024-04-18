@@ -1,0 +1,25 @@
+.background {
+    background-image: url('/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marquee-container {
+    width: 100%;
+    height: 30px; 
+    overflow: hidden;
+}
+
+.running-line {
+    width: 100%;
+    font-size: 35rem;
+    color: rgba(215, 105, 105, 0.173);
+    white-space: nowrap; 
+    animation: marquee 10s linear infinite; 
+}
+

@@ -1,0 +1,178 @@
+.intro {
+    display: flex;
+    background-color: #FFF6E4;
+    margin-top: 80px;
+}
+
+.p1 {
+    font-size: 30px;
+    margin-top: 100px;
+    padding-left: 80px;
+    color: #5C5959;
+}
+
+.p2 {
+    font-size: 3rem;
+    color: #562A2A;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+
+.join-button {
+    background: #820005; 
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 55px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-top: 25px; 
+    margin-left: 80px;
+    transition: transform 0.3s ease;
+} a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.join-button:hover {
+    background-color: #5a0000;
+    transform: scale(1.1);
+}
+
+.trainings {
+    font-size: 96px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.images-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.images-row img {
+    width: 413px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+
+.images-row img:hover {
+    transform: scale(1.1);
+}
+
+.offer img {
+    width: 1440px;
+    height: 464px;
+    margin-top: 120px;
+    margin-left: auto;
+    padding-left: 30px;
+}
+
+.offer .p3 {
+    color: #5C5959;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.offer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.offer .mb-3 {
+    margin-bottom: 20px;
+}
+
+.offer label {
+    display: block; 
+    text-align: left; 
+    margin-bottom: 5px;
+}
+
+
+form #disabledTextInput {
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    width: 414px;
+    height: 55px;
+    border-radius: 5px;
+    border-color: #B5B5B5;
+    color: #5C5959;
+    padding-left: 5px;
+}
+
+.offer-button {
+    background: #820005; 
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 36px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-top: 25px; 
+    transition: transform 0.3s ease;
+} a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.offer-button:hover {
+    background-color: #5a0000;
+    transform: scale(1.1);
+}
+
+.schedule p {
+    color:#101010;
+    font-size: 96px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+
+.table {
+    margin: auto;
+}
+
+.table td {
+    font-size: 48px;
+    color: #333333;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+
+.table td.day {
+    font-size: 72px;
+    color: #101010;
+    padding-left: 30px;
+}
+
+tr.mon td:nth-child(2n),
+tr.tue td:nth-child(2n),
+tr.wed td:nth-child(2n),
+tr.thur td:nth-child(2n),
+tr.fri td:nth-child(2n),
+tr.sat td:nth-child(2n),
+tr.sun td:nth-child(2n) {
+    color: var(--main-text-color);
+    font-size: 24px;
+    padding-right: 10rem;
+    white-space: nowrap;
+}
+
+tr:nth-child(2n) {
+    background-color: rgba(233, 233, 233, 0.751);
+}
+
+
+
+
+
