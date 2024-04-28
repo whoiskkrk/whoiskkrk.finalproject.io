@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="./favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <section>
@@ -22,11 +24,11 @@
                         <li><a href="schedule.html">SCHEDULE</a></li>
                         <li><a href="trainings.html">TRAININGS</a></li>
                         <li><a href="about.html">ABOUT US</a></li>
-                        <li><a href="contact.html">CONTACTS</a></li>
+                        <li><a href="#">CONTACTS</a></li>
                         
                         <div class="icons">
-                            <li><a href="cart.html" class="fa-brands fa-instagram" style="font-size: 30px;"></a></li> 
-                            <li><a href="user.html" class="fa-solid fa-phone" style="font-size: 30px;"></a></li>
+                            <li><a href="#" class="fa-brands fa-instagram" style="font-size: 30px;"></a></li> 
+                            <li><a href="#" class="fa-solid fa-phone" style="font-size: 30px;"></a></li>
                         </div>
                     </ul>
                 </nav>
@@ -41,9 +43,21 @@
         <div class="into-content">
             <p class="p1" style="font-size: 25px;">The establishment is a fitness facility exclusively designated <span style="color:#820005;">only for female</span>. Its inception aimed to foster an environment where all feel at ease, empowering them to pursue their objectives with confidence.</p>
             <p class="p2"style="font-size: 3rem;">the best trainers. <br>variety of TRAININGS. <br> convenient schedule. <br> PERFECT RESULTS.</p>
-            <p class="join-button"> <a href="pop-up.html">Join Us</a></p>
+            <button class="join-button-2" style="margin-left: 80px ;" onclick="open">Join Us</button>
+
+            <div>
+                <form class="holder pop-up">
+                    <h1 style="color: #fafafa; font-size: 48px;">Join our team right now!</h1>
+                    <h3 style="color: #fafafa; font-size: 36px;">Enter your details so that we can contact you</h2>
+                    <input type="text" id="join" class="name" placeholder="Enter your name" required><br>
+                    <input type="text" id="join" class="number" placeholder="Enter your phone number" required><br>
+                    <input type="text" id="join" class="email" placeholder="Enter your email" required><br>
+                    <button class="join-button" style="margin-right: 20px;">Let's go!</button>
+                    <span class="close" style="color: #fafafa;">X</span>
+                </form>
+           </div>
         </div>
-        <img src="image-1.jpg" alt="intro" style="height: 570px; width: 860px; margin-left: 80px; margin-top: 60px;">
+        <img src="./images/image-1.jpg" alt="intro" style="height: 570px; width: 860px; margin-left: 80px; margin-top: 60px;">
     </section>
 
     <section>
@@ -52,30 +66,30 @@
         </div>
 
         <div class="images-row">
-            <img src="stretching.jpg" alt="image-1">
-            <img src="boxing.jpg" alt="image-2">
-            <img src="yoga.jpg" alt="image-3">
+            <a href="trainings.html"><img src="./images/stretching.jpg" alt="image-1"></a>
+            <a href="trainings.html"><img src="./images/boxing.jpg" alt="image-2"></a>
+            <a href="trainings.html"><img src="./images/yoga.jpg" alt="image-3"></a>
         </div>
         <div class="images-row">
-            <img src="strength.jpg" alt="image-4">
-            <img src="trx.jpg" alt="image-5">
-            <img src="booty.jpg" alt="image-6">
+            <a href="trainings.html"><img src="./images/strength.jpg" alt="image-4"></a>
+            <a href="trainings.html"><img src="./images/trx.jpg" alt="image-5"></a>
+            <a href="trainings.html"><img src="./images/booty.jpg" alt="image-6"></a>
         </div>
     </section>
 
     <section>
         <div class="offer">
-            <img src="buy.jpg" alt="image-7">
+            <img src="./images/buy.jpg" alt="image-7">
             <p class="p3">Buy an <span style="color: #820005;">online Booty Power</span> training course <br> with a <span style="color: #820005;">-20% discount</span>!
             <br><span style="color: #820005;">Make your appointment now!</span></p>
 
             <form>
                 <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label">Your name</label>
+                    <label for="disabledTextInput-1" class="form-label">Your name</label>
                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter your name">
                   </div>
                   <div class="mb-3">
-                    <label for="disabledTextInput" class="form-label">Your phone number</label>
+                    <label for="disabledTextInput-2" class="form-label">Your phone number</label>
                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter your phone number">
                   </div>
                   <p class="offer-button" style="color: #fafafa; font-size: 52px;"> Let's go!</a></p>
@@ -149,7 +163,7 @@
     </section>
 
     <section class="gallery" style="margin-top: 80px;">
-        <img src="Gallery.jpg" alt="" style="height: 630.5px; width: auto;">
+        <img src="/images/Gallery.jpg" alt="" style="height: 630.5px; width: auto;">
     </section>
 
     <footer>
@@ -157,9 +171,9 @@
             <div>
                 <h1>Info</h1>
                 <ul>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Trainings</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="trainings.html">Trainings</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
             </div>
@@ -196,7 +210,8 @@
         </section>
 
     </footer>
+    <div id="errorMessages"></div>
 
-<link rel="stylesheet" href="/js/app.js">
+    <script src="main.js"></script>
 </body>
 </html>
